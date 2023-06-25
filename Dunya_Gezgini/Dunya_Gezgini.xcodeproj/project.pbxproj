@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154744642A08E34E00D773D7 /* Dunya_GezginiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154744632A08E34E00D773D7 /* Dunya_GezginiApp.swift */; };
+		154744662A08E34E00D773D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154744652A08E34E00D773D7 /* ContentView.swift */; };
+		154744682A08E34F00D773D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154744672A08E34F00D773D7 /* Assets.xcassets */; };
+		1547446B2A08E34F00D773D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1547446A2A08E34F00D773D7 /* Preview Assets.xcassets */; };
+		154744752A08E34F00D773D7 /* Dunya_GezginiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154744742A08E34F00D773D7 /* Dunya_GezginiTests.swift */; };
+		1547447F2A08E34F00D773D7 /* Dunya_GezginiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547447E2A08E34F00D773D7 /* Dunya_GezginiUITests.swift */; };
+		154744812A08E34F00D773D7 /* Dunya_GezginiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154744802A08E34F00D773D7 /* Dunya_GezginiUITestsLaunchTests.swift */; };
+		154744902A08E64900D773D7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547448F2A08E64900D773D7 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154744712A08E34F00D773D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154744582A08E34E00D773D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1547445F2A08E34E00D773D7;
+			remoteInfo = Dunya_Gezgini;
+		};
+		1547447B2A08E34F00D773D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154744582A08E34E00D773D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1547445F2A08E34E00D773D7;
+			remoteInfo = Dunya_Gezgini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154744602A08E34E00D773D7 /* Dunya_Gezgini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dunya_Gezgini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		154744632A08E34E00D773D7 /* Dunya_GezginiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunya_GezginiApp.swift; sourceTree = "<group>"; };
+		154744652A08E34E00D773D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		154744672A08E34F00D773D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1547446A2A08E34F00D773D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		154744702A08E34F00D773D7 /* Dunya_GezginiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dunya_GezginiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		154744742A08E34F00D773D7 /* Dunya_GezginiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunya_GezginiTests.swift; sourceTree = "<group>"; };
+		1547447A2A08E34F00D773D7 /* Dunya_GezginiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dunya_GezginiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1547447E2A08E34F00D773D7 /* Dunya_GezginiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunya_GezginiUITests.swift; sourceTree = "<group>"; };
+		154744802A08E34F00D773D7 /* Dunya_GezginiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunya_GezginiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1547448F2A08E64900D773D7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1547445D2A08E34E00D773D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1547446D2A08E34F00D773D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154744772A08E34F00D773D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154744572A08E34E00D773D7 = {
+			isa = PBXGroup;
+			children = (
+				154744622A08E34E00D773D7 /* Dunya_Gezgini */,
+				154744732A08E34F00D773D7 /* Dunya_GezginiTests */,
+				1547447D2A08E34F00D773D7 /* Dunya_GezginiUITests */,
+				154744612A08E34E00D773D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154744612A08E34E00D773D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154744602A08E34E00D773D7 /* Dunya_Gezgini.app */,
+				154744702A08E34F00D773D7 /* Dunya_GezginiTests.xctest */,
+				1547447A2A08E34F00D773D7 /* Dunya_GezginiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154744622A08E34E00D773D7 /* Dunya_Gezgini */ = {
+			isa = PBXGroup;
+			children = (
+				154744632A08E34E00D773D7 /* Dunya_GezginiApp.swift */,
+				1547448F2A08E64900D773D7 /* MapView.swift */,
+				154744652A08E34E00D773D7 /* ContentView.swift */,
+				154744672A08E34F00D773D7 /* Assets.xcassets */,
+				154744692A08E34F00D773D7 /* Preview Content */,
+			);
+			path = Dunya_Gezgini;
+			sourceTree = "<group>";
+		};
+		154744692A08E34F00D773D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1547446A2A08E34F00D773D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		154744732A08E34F00D773D7 /* Dunya_GezginiTests */ = {
+			isa = PBXGroup;
+			children = (
+				154744742A08E34F00D773D7 /* Dunya_GezginiTests.swift */,
+			);
+			path = Dunya_GezginiTests;
+			sourceTree = "<group>";
+		};
+		1547447D2A08E34F00D773D7 /* Dunya_GezginiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1547447E2A08E34F00D773D7 /* Dunya_GezginiUITests.swift */,
+				154744802A08E34F00D773D7 /* Dunya_GezginiUITestsLaunchTests.swift */,
+			);
+			path = Dunya_GezginiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1547445F2A08E34E00D773D7 /* Dunya_Gezgini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154744842A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_Gezgini" */;
+			buildPhases = (
+				1547445C2A08E34E00D773D7 /* Sources */,
+				1547445D2A08E34E00D773D7 /* Frameworks */,
+				1547445E2A08E34E00D773D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dunya_Gezgini;
+			productName = Dunya_Gezgini;
+			productReference = 154744602A08E34E00D773D7 /* Dunya_Gezgini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1547446F2A08E34F00D773D7 /* Dunya_GezginiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154744872A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_GezginiTests" */;
+			buildPhases = (
+				1547446C2A08E34F00D773D7 /* Sources */,
+				1547446D2A08E34F00D773D7 /* Frameworks */,
+				1547446E2A08E34F00D773D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154744722A08E34F00D773D7 /* PBXTargetDependency */,
+			);
+			name = Dunya_GezginiTests;
+			productName = Dunya_GezginiTests;
+			productReference = 154744702A08E34F00D773D7 /* Dunya_GezginiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		154744792A08E34F00D773D7 /* Dunya_GezginiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1547448A2A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_GezginiUITests" */;
+			buildPhases = (
+				154744762A08E34F00D773D7 /* Sources */,
+				154744772A08E34F00D773D7 /* Frameworks */,
+				154744782A08E34F00D773D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1547447C2A08E34F00D773D7 /* PBXTargetDependency */,
+			);
+			name = Dunya_GezginiUITests;
+			productName = Dunya_GezginiUITests;
+			productReference = 1547447A2A08E34F00D773D7 /* Dunya_GezginiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154744582A08E34E00D773D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1547445F2A08E34E00D773D7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1547446F2A08E34F00D773D7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1547445F2A08E34E00D773D7;
+					};
+					154744792A08E34F00D773D7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1547445F2A08E34E00D773D7;
+					};
+				};
+			};
+			buildConfigurationList = 1547445B2A08E34E00D773D7 /* Build configuration list for PBXProject "Dunya_Gezgini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				tr,
+				Base,
+			);
+			mainGroup = 154744572A08E34E00D773D7;
+			productRefGroup = 154744612A08E34E00D773D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1547445F2A08E34E00D773D7 /* Dunya_Gezgini */,
+				1547446F2A08E34F00D773D7 /* Dunya_GezginiTests */,
+				154744792A08E34F00D773D7 /* Dunya_GezginiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1547445E2A08E34E00D773D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1547446B2A08E34F00D773D7 /* Preview Assets.xcassets in Resources */,
+				154744682A08E34F00D773D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1547446E2A08E34F00D773D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154744782A08E34F00D773D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1547445C2A08E34E00D773D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154744662A08E34E00D773D7 /* ContentView.swift in Sources */,
+				154744902A08E64900D773D7 /* MapView.swift in Sources */,
+				154744642A08E34E00D773D7 /* Dunya_GezginiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1547446C2A08E34F00D773D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154744752A08E34F00D773D7 /* Dunya_GezginiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154744762A08E34F00D773D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154744812A08E34F00D773D7 /* Dunya_GezginiUITestsLaunchTests.swift in Sources */,
+				1547447F2A08E34F00D773D7 /* Dunya_GezginiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154744722A08E34F00D773D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1547445F2A08E34E00D773D7 /* Dunya_Gezgini */;
+			targetProxy = 154744712A08E34F00D773D7 /* PBXContainerItemProxy */;
+		};
+		1547447C2A08E34F00D773D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1547445F2A08E34E00D773D7 /* Dunya_Gezgini */;
+			targetProxy = 1547447B2A08E34F00D773D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		154744822A08E34F00D773D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		154744832A08E34F00D773D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154744852A08E34F00D773D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dunya_Gezgini/Preview Content\"";
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-Gezgini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		154744862A08E34F00D773D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dunya_Gezgini/Preview Content\"";
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-Gezgini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		154744882A08E34F00D773D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-GezginiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dunya_Gezgini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dunya_Gezgini";
+			};
+			name = Debug;
+		};
+		154744892A08E34F00D773D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-GezginiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dunya_Gezgini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dunya_Gezgini";
+			};
+			name = Release;
+		};
+		1547448B2A08E34F00D773D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-GezginiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dunya_Gezgini;
+			};
+			name = Debug;
+		};
+		1547448C2A08E34F00D773D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QS57NV4KZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YEB.Dunya-GezginiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dunya_Gezgini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1547445B2A08E34E00D773D7 /* Build configuration list for PBXProject "Dunya_Gezgini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154744822A08E34F00D773D7 /* Debug */,
+				154744832A08E34F00D773D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154744842A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_Gezgini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154744852A08E34F00D773D7 /* Debug */,
+				154744862A08E34F00D773D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154744872A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_GezginiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154744882A08E34F00D773D7 /* Debug */,
+				154744892A08E34F00D773D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1547448A2A08E34F00D773D7 /* Build configuration list for PBXNativeTarget "Dunya_GezginiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1547448B2A08E34F00D773D7 /* Debug */,
+				1547448C2A08E34F00D773D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154744582A08E34E00D773D7 /* Project object */;
+}
